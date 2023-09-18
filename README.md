@@ -1,6 +1,8 @@
 # IEEE-TKET-TUTORIAL
 
-Notebooks are in the Tutorial 1 and Tutorial 2 folders. Note that you will not be able to run all of the cells in the repetition code notebook unless you have a quantinuum account.
+There are two main folders one for each tutorial section. Find the slides and notebooks for each section in the corresponding folder.
+
+Note that you will not be able to run all of the cells in the repetition code (Tutorial 2) notebook unless you have a quantinuum account.
 
 ## Installing the required packages
 
