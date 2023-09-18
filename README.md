@@ -1,4 +1,4 @@
-# IEEE-tket-demo
+# IEEE-TKET-TUTORIAL
 
 Notebooks are in the Tutorial 1 and Tutorial 2 folders. Note that you will not be able to run all of the cells in the repetition code notebook unless you have a quantinuum account.
 
