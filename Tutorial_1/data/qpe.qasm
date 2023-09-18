@@ -1,0 +1,27 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+
+qreg mq[3];
+qreg sp[1];
+creg mb[3];
+h mq[0];
+h mq[1];
+h mq[2];
+x sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[2],sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[1],sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[1],sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[0],sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[0],sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[0],sp[0];
+cu3(0.0*pi,1.75*pi,0.5*pi) mq[0],sp[0];
+swap mq[0],mq[2];
+h mq[2];
+cu1(1.5*pi) mq[2],mq[1];
+cu1(1.75*pi) mq[2],mq[0];
+h mq[1];
+measure mq[2] -> mb[2];
+cu1(1.5*pi) mq[1],mq[0];
+measure mq[1] -> mb[1];
+h mq[0];
+measure mq[0] -> mb[0];

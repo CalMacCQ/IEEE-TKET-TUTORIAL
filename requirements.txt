@@ -1,0 +1,5 @@
+pytket ~= 1.19
+pytket-qiskit ~= 0.44
+pytket-quantinuum ~= 0.22
+matplotlib
+quimb
