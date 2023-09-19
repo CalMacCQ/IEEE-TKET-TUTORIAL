@@ -40,6 +40,12 @@ pip install -r requirements.txt
 
 These package versions will be isolated from other packages on your machine. This is helpful for avoiding dependency conflicts.
 
+The jupyterlab package will be installed as a requirement. To start the jupyter notebook server run the following
+
+```shell
+jupyter-lab
+```
+
 ### Windows installation
 
 Create a venv on windows as follows...
