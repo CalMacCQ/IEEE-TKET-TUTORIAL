@@ -1,5 +1,8 @@
 # IEEE-TKET-TUTORIAL
 
+Join our public slack channel!
+[![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://tketusers.slack.com/join/shared_invite/zt-18qmsamj9-UqQFVdkRzxnXCcKtcarLRA#/shared-invite/email)
+
 There are two main folders one for each tutorial section. Find the slides and notebooks for each section in the corresponding folder.
 
 Note that you will not be able to run all of the cells in the repetition code (Tutorial 2) notebook unless you have a quantinuum account.
